@@ -38,13 +38,13 @@ The backend handles the API, database connections, and payments.
 Open a terminal and navigate to the backend folder.
 
 Install dependencies:
-` ` ` ` ` ` ` `
-cd backend
-npm install
 
- ` ` ` ` ` ` ` ` 
+**cd backend
+npm install**
 
-Environment Variables: Create a file named .env inside the backend folder and paste the following:
+ 
+
+Environment Variables: Create a file named .env inside the backend folder same as .env.example and paste the following:
 
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/eventbooker
@@ -53,19 +53,19 @@ STRIPE_SECRET_KEY=sk_test_... (Replace with your Stripe Secret Key)
 CLIENT_URL=http://localhost:3000
 
 
-Note: You need a Stripe account to get a Test Secret Key.
+**Note: You need a Stripe account to get a Test Secret Key.**
 
 Seed the Database (Optional but recommended):
 The app automatically seeds admin credentials and mock events on the first run.
 
 Start the Server:
 
-npm run dev
+**npm run dev**
 # OR
 node server.js
 
 
-The server should be running at http://localhost:5000.
+**The server should be running at http://localhost:5000.**
 
 ***********************************************************************************************
 
@@ -74,23 +74,23 @@ The server should be running at http://localhost:5000.
 The frontend is the React user interface.
 
 Open a new terminal window and navigate to the project root (where package.json for React is located).
-` ` ` ` `
-cd frontend
- ` ` ` ` `
+
+**cd frontend**
+ 
 
 Install dependencies:
 
-npm install
+**npm install**
 
 
 Images: Ensure you have an images folder inside public/ containing the category images (music.jpg, business.jpg, etc.) for the best visual experience.
 
 Start the React App:
-` ` ` ` ` `
-npm run dev
-` ` ` ` ` 
 
-The app should open automatically at http://localhost:3000.
+**npm run dev**
+ 
+
+**The app should open automatically at http://localhost:3000.**
 
 **********************************************************************************************
 **********************************************************************************************
@@ -109,9 +109,10 @@ User Account
 
 You can sign up as a new user via the "Sign Up" button on the login page, or use any created account.
 
-*********************************************************************************************************************************************************************************************
 
-💳 Testing Payments (Stripe)
+*****************************************************************************************************************************************************************************
+
+💳** Testing Payments (Stripe)**
 
 Since the app uses Stripe in Test Mode, do not use real card details.
 
@@ -156,7 +157,7 @@ Seat Blocking: Book a seat as a User. Log out and log back in (or try booking as
 
 Notifications: Check the bell icon for mock notifications about system updates and promos.
 
-**********************************************************************************************************************************************************************************************
+*****************************************************************************************************************************************************************************
 
 ⚠️ Troubleshooting
 
