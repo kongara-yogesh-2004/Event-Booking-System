@@ -24,9 +24,11 @@ Follow these steps to get the application running on your local machine.
 Ensure your local MongoDB instance is running.
 
  On Windows (Command Prompt)
+ 
 mongod
 
 On Mac/Linux
+
 brew services start mongodb-community
 
 ***********************************************************************************************
