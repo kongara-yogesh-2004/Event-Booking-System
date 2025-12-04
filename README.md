@@ -45,7 +45,7 @@ Install dependencies:
 
  
 
-Environment Variables: Create a file named .env inside the backend folder same as .env.example and paste the following:
+Environment Variables: **Create a file named .env inside the backend folder same as .env.example and paste the following:**
 
 PORT=5000
 
@@ -53,12 +53,15 @@ MONGO_URI=mongodb://localhost:27017/eventbooker
 
 JWT_SECRET=mysecretkey123
 
-STRIPE_SECRET_KEY=sk_test_... (Replace with your Stripe Secret Key)
+STRIPE_SECRET_KEY=sk_test_... **(Replace with your Stripe Secret Key)**
 
 CLIENT_URL=http://localhost:3000
 
 
 **Note: You need a Stripe account to get a Test Secret Key.**
+
+Generate the Stripe secret key in test mode to get the payment options working — get it from [Stripe Dashboard](https://dashboard.stripe.com/test/apikeys).
+
 
 Seed the Database (Optional but recommended):
 The app automatically seeds admin credentials and mock events on the first run.
@@ -114,7 +117,7 @@ Password: admin123
 
 User Account
 
-You can sign up as a new user via the "Sign Up" button on the login page, or use any created account.
+You can sign up as a new user via the "Sign Up" button on the login page for the first time and  use any created account for next logins.
 
 
 *****************************************************************************************************************************************************************************
