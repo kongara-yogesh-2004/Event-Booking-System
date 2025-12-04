@@ -131,25 +131,86 @@ CVC: Any 3 digits (e.g., 123)
 
 ZIP: Any valid ZIP code (e.g., 10001)
 
-**********************************************************************************************************************************************************************************************
 
 
-🚀 Key Features to Test
 
-Admin Dashboard: Log in as Admin to see the ring charts showing seat occupancy. Create a new event and see it appear in the list.
-
-Date Filtering: Use the calendar widget on the User or Admin dashboard to filter events by specific dates.
-
-Seat Blocking: Book a seat as a User. Log out and log back in (or try booking as a different user) to verify that the seat remains unavailable (greyed out).
-
-Notifications: Check the bell icon for mock notifications about system updates and promos.
 
 *****************************************************************************************************************************************************************************
+<h2>📸 Project Screenshots</h2>
 
-⚠️ Troubleshooting
+<table>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Login page.png" width="450"/>
+      <br/><b>Figure 1:</b> Login Page
+    </td>
+    <td align="center">
+      <img src="./screenshots/Home page for users.png" width="450"/>
+      <br/><b>Figure 2:</b> Home Page for Users
+    </td>
+  </tr>
 
-"MongoDB Connection Error": Ensure your MongoDB service is running locally (mongod).
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Browse events.png" width="450"/>
+      <br/><b>Figure 3:</b> Browse Events Page
+    </td>
+    <td align="center">
+      <img src="./screenshots/Notifications page.png" width="450"/>
+      <br/><b>Figure 4:</b> Notifications Page
+    </td>
+  </tr>
 
-"Stripe Invalid Request": Check your .env file in the backend folder. Ensure STRIPE_SECRET_KEY is valid and correct.
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Users Bookings.png" width="450"/>
+      <br/><b>Figure 5:</b> User Bookings Page
+    </td>
+    <td align="center">
+      <img src="./screenshots/Booking confirmation.png" width="450"/>
+      <br/><b>Figure 6:</b> Booking Confirmation
+    </td>
+  </tr>
 
-Images not loading: Verify that the image files exist in the public/images/ folder with the exact names (music.jpg, etc.).
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Payment for booking.png" width="450"/>
+      <br/><b>Figure 7:</b> Payment for Booking
+    </td>
+    <td align="center">
+      <img src="./screenshots/Reminder setup.png" width="450"/>
+      <br/><b>Figure 8:</b> Reminder Setup
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="./screenshots/calendar based event sorting.png" width="450"/>
+      <br/><b>Figure 9:</b> Calendar-Based Event Sorting
+    </td>
+    <td align="center">
+      <img src="./screenshots/Seat Allocation.png" width="450"/>
+      <br/><b>Figure 10:</b> Seat Allocation
+    </td>
+  </tr>
+</table>
+
+<hr/>
+
+<h3>👨‍💼 Admin Screens</h3>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Admin dashboard.png" width="450"/>
+      <br/><b>Figure 11:</b> Admin Dashboard
+    </td>
+    <td align="center">
+      <img src="./screenshots/create event by admin.png" width="450"/>
+      <br/><b>Figure 12:</b> Create Event (Admin)
+    </td>
+  </tr>
+</table>
+
+
+
